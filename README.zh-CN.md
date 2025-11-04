@@ -48,7 +48,7 @@ order_address：VARCHAR（订单地址）
 order_creation_date：DATETIME（订单创建时间）
 ```
 
-**特点**：提供抽象的表结构定义，AI 需要理解字段类型和关系
+**特点**：提供抽象的表结构定义，AI 需要理解 字段类型 和 关系
 
 ---
 
