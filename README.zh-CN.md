@@ -20,7 +20,7 @@
 
 ### 🔹 普通 NL2SQL System Prompt 示例
 
-```
+```sql
 - 今天是 2025 年 6 月 6 日
 
 《表结构与数据类型》
@@ -54,7 +54,7 @@ order_creation_date：DATETIME（订单创建时间）
 
 ### 🔹 搜索式 NL2SQL System Prompt 示例
 
-```
+```sql
 - 今天是 2025 年 6 月 6 日
 - 根据数据的样子，反推字段，再根据字段进一步反推表
 - 使用 SQL 代码解释器工具前，先介绍反推思路
