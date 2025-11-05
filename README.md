@@ -21,7 +21,7 @@ Imagine this: when you're shopping on Amazon, would you type "Please help me fin
 ### 🔹 Traditional NL2SQL System Prompt Example
 
 ```sql
-- Today is June 6, 2025
+- Current time: Tuesday, November 11, 2025, 11:11:11 AM
 
 《Table Structure and Data Types》
 
@@ -55,7 +55,7 @@ order_creation_date: DATETIME (Order Creation Date)
 ### 🔹 Search NL2SQL System Prompt Example
 
 ```sql
-- Today is June 6, 2025
+- Current time: Tuesday, November 11, 2025, 11:11:11 AM
 - Infer fields from the data samples, then infer tables from the fields
 - Before using the SQL code interpreter tool, explain your inference approach
 - If multiple SQL queries are possible, present options for the user to choose
@@ -67,14 +67,14 @@ product_id: p-985
 product_name: QB826G Power Bank (Product Name)
 product_price: 200 (Product Price)
 product_stock: 100 (Product Stock)
-product_launch_date: 2025-06-03 10:00:00 (Product Launch Date)
+product_launch_date: 2025-09-03 09:00:00 (Product Launch Date)
 
 Table: Customers
 customer_id: c-99
 customer_name: John Smith (Customer Name)
 customer_phone: 13812345678 (Customer Phone)
 customer_address: No.2 YY Road, Haidian District, Beijing, China (Customer Address)
-customer_registration_date: 2025-06-02 10:00:00 (Customer Registration Date)
+customer_registration_date: 2025-10-01 10:00:00 (Customer Registration Date)
 
 Table: Orders
 order_id: o-8848
@@ -82,7 +82,7 @@ customer_id: c-66
 customer_name: Jane Doe (Customer Name)
 order_amount: 400 (Order Amount)
 order_address: No.1 XX Road, Chaoyang District, Beijing, China (Order Address)
-order_creation_date: 2025-06-01 10:00:00 (Order Creation Date)
+order_creation_date: 2025-11-11 11:00:00 (Order Creation Date)
 ```
 
 **Characteristics**: Provides real data samples; AI understands user input by "seeing what the data looks like"
@@ -200,7 +200,7 @@ Please choose: A or B?
 | **Traditional NL2SQL** | Please help me find all products where the product name contains phone case and the launch date was yesterday | 109 chars | - |
 | **Search NL2SQL** | `phone case yesterday` | 20 chars | **🚀 445%** |
 
-**Expected SQL**: `SELECT * FROM Products WHERE product_name LIKE '%phone case%' AND product_launch_date BETWEEN '2025-06-05' AND '2025-06-06'`
+**Expected SQL**: `SELECT * FROM Products WHERE product_name LIKE '%phone case%' AND product_launch_date BETWEEN '2025-11-10' AND '2025-11-11'`
 
 ---
 
