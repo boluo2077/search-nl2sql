@@ -20,10 +20,10 @@
 
 ### 🔹 普通 NL2SQL System Prompt 示例
 
-```sql
+```markdown
 - 现在是 2025 年 11 月 11 日，周二上午 11:11:11
 
-《表结构与数据类型》
+## 表结构与数据类型
 
 表名：Products（产品）
 product_id：VARCHAR（产品ID）
@@ -54,13 +54,13 @@ order_creation_date：DATETIME（订单创建时间）
 
 ### 🔹 搜索式 NL2SQL System Prompt 示例
 
-```sql
+```markdown
 - 现在是 2025 年 11 月 11 日，周二上午 11:11:11
 - 根据数据的样子，反推字段，再根据字段进一步反推表
 - 调用 SQL 代码解释器工具前，先介绍反推思路
 - 若可能的 SQL 不止一条，让用户做选择题
 
-《表结构与数据示例》
+## 表结构与数据示例
 
 表名：Products（产品）
 product_id：p-985
