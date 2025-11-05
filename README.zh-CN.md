@@ -21,7 +21,7 @@
 ### 🔹 普通 NL2SQL System Prompt 示例
 
 ```sql
-- 今天是 2025 年 6 月 6 日
+- 现在是 2025 年 11 月 11 日，周二上午 11:11:11
 
 《表结构与数据类型》
 
@@ -55,7 +55,7 @@ order_creation_date：DATETIME（订单创建时间）
 ### 🔹 搜索式 NL2SQL System Prompt 示例
 
 ```sql
-- 今天是 2025 年 6 月 6 日
+- 现在是 2025 年 11 月 11 日，周二上午 11:11:11
 - 根据数据的样子，反推字段，再根据字段进一步反推表
 - 调用 SQL 代码解释器工具前，先介绍反推思路
 - 若可能的 SQL 不止一条，让用户做选择题
@@ -67,14 +67,14 @@ product_id：p-985
 product_name：QB826G充电宝（产品名称）
 product_price：200（产品单价）
 product_stock：100（产品库存）
-product_launch_data：2025-06-03 10:00:00（产品上架时间）
+product_launch_data：2025-09-03 09:00:00（产品上架时间）
 
 表名：Customers（客户）
 customer_id：c-99
 customer_name：李四（客户姓名）
 customer_phone：13812345678（客户电话）
 customer_address：中国北京市海淀区YY路2号（客户地址）
-customer_registration_date：2025-06-02 10:00:00（客户注册时间）
+customer_registration_date：2025-10-01 10:00:00（客户注册时间）
 
 表名：Orders（订单）
 order_id：o-8848
@@ -82,7 +82,7 @@ customer_id：c-66
 customer_name：张三（客户姓名）
 order_amount：400（订单金额）
 order_address：中国北京市朝阳区XX路1号（订单地址）
-order_creation_date：2025-06-01 10:00:00（订单创建时间）
+order_creation_date：2025-11-11 11:00:00（订单创建时间）
 ```
 
 **特点**：提供真实数据样例，AI 通过"看到数据的样子"来理解用户输入的含义
@@ -200,7 +200,7 @@ B. 在订单表中查找客户姓名为"李华"的订单
 | **普通 NL2SQL** | 请帮我查一下产品库，看看有没有产品的名称字段包含手机壳这几个字，并且这些产品的上架时间是在昨天这一天内的所有产品信息 | 58 字符 | - |
 | **搜索式 NL2SQL** | `手机壳 昨天` | 6 字符 | **🚀 867%** |
 
-**期望 SQL**：`SELECT * FROM Products WHERE product_name LIKE '%手机壳%' AND product_launch_date BETWEEN '2025-06-05' AND '2025-06-06'`
+**期望 SQL**：`SELECT * FROM Products WHERE product_name LIKE '%手机壳%' AND product_launch_date BETWEEN '2025-11-10' AND '2025-11-11'`
 
 ---
 
