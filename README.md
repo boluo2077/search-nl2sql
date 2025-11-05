@@ -20,7 +20,7 @@ Imagine this: when you're shopping on Amazon, would you type "Please help me fin
 
 ### 🔹 Traditional NL2SQL System Prompt Example
 
-```sql
+```markdown
 - Current time: Tuesday, November 11, 2025, 11:11:11 AM
 
 ## Table Structure and Data Types
@@ -54,7 +54,7 @@ order_creation_date: DATETIME (Order Creation Date)
 
 ### 🔹 Search NL2SQL System Prompt Example
 
-```sql
+```markdown
 - Current time: Tuesday, November 11, 2025, 11:11:11 AM
 - Infer fields from the data samples, then infer tables from the fields
 - Before using the SQL code interpreter tool, explain your inference approach
