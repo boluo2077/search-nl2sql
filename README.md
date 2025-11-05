@@ -23,7 +23,7 @@ Imagine this: when you're shopping on Amazon, would you type "Please help me fin
 ```sql
 - Current time: Tuesday, November 11, 2025, 11:11:11 AM
 
-《Table Structure and Data Types》
+## Table Structure and Data Types
 
 Table: Products
 product_id: VARCHAR (Product ID)
@@ -60,7 +60,7 @@ order_creation_date: DATETIME (Order Creation Date)
 - Before using the SQL code interpreter tool, explain your inference approach
 - If multiple SQL queries are possible, present options for the user to choose
 
-《Table Structure with Data Examples》
+## Table Structure with Data Examples
 
 Table: Products
 product_id: p-985
