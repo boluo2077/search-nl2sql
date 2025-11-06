@@ -259,7 +259,7 @@ Keyword order doesn't matter: `John Smith 500` equals `500 John Smith`
 
 **Search NL2SQL** isn't just a technical optimization—it's a **paradigm shift in interaction**. It brings data queries from "conversation" back to "search," from "describing requirements" back to "entering keywords," letting machines understand humanity's most natural way of expression
 
-> The best technology is the one users don't even notice
+> **The best technology is the one users don't even notice**
 
 ---
 
