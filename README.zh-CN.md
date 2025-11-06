@@ -1,3 +1,5 @@
+<a id="top"></a>
+
 <div align="center">
 
 # [🔍 搜索式 NL2SQL：让数据查询回归本质](https://github.com/boluo2077/search-nl2sql)
@@ -257,7 +259,7 @@ WHERE order_creation_date BETWEEN '2024-01-01' AND '2025-01-01'
 
 **搜索式 NL2SQL** 不是简单的技术优化，而是**交互范式的转变**。它让数据查询从"对话"回归"搜索"，从"描述需求"回归"输入关键词"，让机器理解人类最自然的表达方式
 
-> 最好的技术，是让用户感觉不到技术的存在
+> **最好的技术，是让用户感觉不到技术的存在**
 
 ---
 
@@ -271,7 +273,7 @@ WHERE order_creation_date BETWEEN '2024-01-01' AND '2025-01-01'
 
 ---
 
-<a href="#-搜索式-nl2sql让数据查询回归本质">
+<a href="#top">
   <img src="https://img.shields.io/badge/⬆️-回到顶部-blue?style=for-the-badge" alt="回到顶部">
 </a>
 
