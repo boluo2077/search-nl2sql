@@ -1,3 +1,5 @@
+<a id="top"></a>
+
 <div align="center">
 
 # [🔍 Search NL2SQL: Bringing Data Queries Back to Basics](https://github.com/boluo2077/search-nl2sql)
@@ -8,7 +10,7 @@
 
 ---
 
-### What is Search NL2SQL?
+### 🤔 What is Search NL2SQL?
 
 Imagine this: when you're shopping on Amazon, would you type "Please help me find blue dresses in the product database with prices between $15 and $30"? Of course not! You'd simply type: **"blue dress $15-$30"**
 
@@ -271,7 +273,7 @@ Keyword order doesn't matter: `John Smith 500` equals `500 John Smith`
 
 ---
 
-<a href="#-search-nl2sql-bringing-data-queries-back-to-basics">
+<a href="#top">
   <img src="https://img.shields.io/badge/⬆️-Back_to_Top-blue?style=for-the-badge" alt="Back to Top">
 </a>
 
